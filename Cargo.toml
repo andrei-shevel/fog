@@ -1,0 +1,15 @@
+[package]
+name = "fog"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rand = "0.9.2"
+aes-gcm = "0.10"
+pbkdf2 = "0.12"
+sha2 = "0.10"
+anyhow = "1.0.100"
+clap = { version = "4.5.56", features = ["derive"] }
+zeroize = "1.8.2"
+rpassword = "7.4.0"
+indicatif = "0.18.3"
